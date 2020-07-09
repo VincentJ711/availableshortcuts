@@ -1,0 +1,29 @@
+<idea-plugin>
+  <id>com.psquirrel.ijplugins.availableshortcuts</id>
+  <name>Available Shortcuts</name>
+  <vendor email="support@yourcompan.com" url="http://www.yourcompan.com">
+    Your Company
+  </vendor>
+
+  <description><![CDATA[
+    This plugins shows you what shortcuts are available.
+    ]]></description>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <!-- uncomment to enable plugin in all products
+  <depends>com.intellij.modules.lang</depends>
+  -->
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+    <toolWindow id="Available Shortcuts"
+                secondary="false"
+                icon="AllIcons.General.Modified" anchor="right"
+                factoryClass="com.psquirrel.ijplugins.availableshortcuts.MyToolWindowFactory"/>
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+</idea-plugin>
