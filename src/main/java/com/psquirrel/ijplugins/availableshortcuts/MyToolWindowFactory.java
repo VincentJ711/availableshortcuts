@@ -12,7 +12,7 @@ public class MyToolWindowFactory implements ToolWindowFactory {
   // Create the tool window content.
   public void createToolWindowContent(@NotNull Project project,
       @NotNull ToolWindow toolWindow) {
-    SomeToolWindow myToolWindow = new SomeToolWindow();
+    MyToolWindow myToolWindow = new MyToolWindow();
     // MyToolWindow myToolWindow = new MyToolWindow(toolWindow);
     ContentFactory contentFactory = ContentFactory.SERVICE.getInstance();
     Content content =
