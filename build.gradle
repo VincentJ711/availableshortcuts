@@ -6,7 +6,8 @@ plugins {
 group 'com.psquirrel.ijplugins'
 version '1.0-SNAPSHOT'
 
-sourceCompatibility = 1.8
+sourceCompatibility = "1.8"
+targetCompatibility = "1.8"
 
 repositories {
     mavenCentral()
@@ -18,7 +19,7 @@ dependencies {
 
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
-    version '2019.1.2'
+    version '2020.2'
 }
 patchPluginXml {
     changeNotes """
